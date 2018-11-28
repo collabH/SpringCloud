@@ -1,0 +1,2 @@
+# SpringCloud
+这是我自己看别人博客写的一个springcloud的demo，包含eureka注册中心的配置，服务提供者的配置，以及rabbion+restTemplate消费服务方式和Feign消费服务方式，hystrix断路器的使用以及断路器监控的部署，其中还包含一些springcloudconfig的使用等等
