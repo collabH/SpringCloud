@@ -1,0 +1,15 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8888/eureka/
+
+spring:
+  application:
+    name: service-consumer-feign
+
+server:
+  port: 9001
+
+feign:
+  hystrix:
+    enabled: true #开启断路器(熔断器) 这个注解不提示 但是不影响它的使用

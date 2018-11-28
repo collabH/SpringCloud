@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/config-client/config-client.iml" filepath="$PROJECT_DIR$/config-client/config-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/netflix-erueka-provider/netflix-erueka-provider.iml" filepath="$PROJECT_DIR$/netflix-erueka-provider/netflix-erueka-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/netflix-eureka-server/netflix-eureka-server.iml" filepath="$PROJECT_DIR$/netflix-eureka-server/netflix-eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sc-f-chapter1.iml" filepath="$PROJECT_DIR$/sc-f-chapter1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-consumer-ribbon/service-consumer-ribbon.iml" filepath="$PROJECT_DIR$/service-consumer-ribbon/service-consumer-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-feign-consumer/service-feign-consumer.iml" filepath="$PROJECT_DIR$/service-feign-consumer/service-feign-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-zuul/service-zuul.iml" filepath="$PROJECT_DIR$/service-zuul/service-zuul.iml" />
+    </modules>
+  </component>
+</project>

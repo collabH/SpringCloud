@@ -1,0 +1,10 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8888/eureka/
+server:
+  port: 9005
+
+spring:
+  application:
+    name: service-consumer-ribbon

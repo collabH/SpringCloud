@@ -1,0 +1,19 @@
+server:
+  port: 9000
+
+spring:
+  application:
+    name: service-cart
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8888/eureka/
+
+#解决http://localhost:9000/actuator/hystrix.stream无法访问的问题
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
