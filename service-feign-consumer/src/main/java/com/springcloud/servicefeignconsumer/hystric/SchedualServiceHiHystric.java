@@ -16,4 +16,9 @@ public class SchedualServiceHiHystric implements SchedualServiceCart {
     public String sayHiFromClientOne(String name) {
         return "sorry"+name+"找不到服务了~~~";
     }
+
+    @Override
+    public String getName(String name) {
+        return "sorry"+name+"找不到了";
+    }
 }

@@ -3,6 +3,7 @@ package com.springcloud.servicefeignconsumer.feign;
 import com.springcloud.servicefeignconsumer.hystric.SchedualServiceHiHystric;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestParam;
 
 /**
@@ -15,4 +16,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 public interface SchedualServiceCart {
     @GetMapping(value = "/hi")
     String sayHiFromClientOne(@RequestParam(value = "name") String name);
+
+    @GetMapping(value = "/findUser/{name}")
+    public String getName(@PathVariable("name") String name);
 }

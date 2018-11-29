@@ -1,8 +1,10 @@
 package com.springcloud.servicefeignconsumer.controller;
 
 import com.springcloud.servicefeignconsumer.feign.SchedualServiceCart;
+import org.slf4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -22,5 +24,10 @@ public class HiController {
     @GetMapping(value = "/hi")
     public String sayHi(@RequestParam("name") String name){
         return schedualServiceCart.sayHiFromClientOne(name);
+    }
+
+    @GetMapping(value = "/findUser/{name}")
+    public String getName(@PathVariable("name") String name){
+        return schedualServiceCart.getName(name);
     }
 }

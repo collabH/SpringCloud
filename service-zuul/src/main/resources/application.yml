@@ -30,9 +30,9 @@ zuul:
     service-consumer-feign: /feign/**
     service-consumer-ribbon: /ribbon/**
 #若忽略某个微服务不走网关，则这样设置：
-  ignored-services: service-consumer-ribbon
+  #ignored-services: service-consumer-ribbon
 #路由前缀
   #prefix: /zuul
 #默认不生效，要想生效，zuul.stripPrefix=false 把忽略前缀设置成false
-  strip-prefix: false
+  #strip-prefix: false
 
